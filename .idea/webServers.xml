@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="18248313-e19f-4188-88ca-c59bb56220fb" name="阿里云" url="http://39.96.167.205">
+        <fileTransfer host="39.96.167.205" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3d3170ac-c80a-433e-8b8f-32bbbf7770b0" name="阿里云1" url="http://39.96.167.205">
+        <fileTransfer host="39.96.167.205" port="22" rootFolder="/data/wwwroot/default/shopDemo/blog" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
